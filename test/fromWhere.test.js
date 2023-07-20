@@ -1,4 +1,5 @@
-var fromWhere = require('../fromWhere');
+import assert from 'assert';
+import fromWhere from '../fromWhere.js';
 
 describe('testing my fromWhere function' , function(){
     it('it should take a car registration number as a parameter and returns the town the car is from.' , function(){

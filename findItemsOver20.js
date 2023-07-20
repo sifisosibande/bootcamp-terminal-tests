@@ -1,4 +1,4 @@
-module.exports = function findItemsOver20(objects){
+export default function findItemsOver20(objects){
     const ItemsOver20=[];
     
     for(let list of objects){

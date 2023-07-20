@@ -1,4 +1,5 @@
-var findIremsOver = require('../findItemsOver');
+import assert from 'assert';
+import findItemsOver from '../findItemsOver.js';
 
 describe('testing my findIremsOver function' , function(){
     it('it should return products that have quantity higher than the threshold.' , function(){

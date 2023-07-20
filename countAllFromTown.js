@@ -1,4 +1,4 @@
-module.exports = function countAllFromTown(strRegNo,townLocation){
+export default function countAllFromTown(strRegNo,townLocation){
     const TownRegNo=[];
    strRegNo=strRegNo.split(",");
   for (let i=0; i < strRegNo.length;i++){

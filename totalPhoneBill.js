@@ -1,4 +1,4 @@
-module.exports = function totalPhoneBill(strCallAndSms){
+export default function totalPhoneBill(strCallAndSms){
     var total=0;
     const phoneBill=strCallAndSms.split(",");
     for(var i= 0; i<phoneBill.length; i++){

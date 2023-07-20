@@ -1,4 +1,4 @@
-module.exports = function findItemsOver(objects,threshold){
+export default function findItemsOver(objects,threshold){
     const ItemsOver=[ ];
     for(let list of objects){
         if(list.qty>threshold){

@@ -1,4 +1,5 @@
-var mostProfitableDepartment = require('../mostProfitableDepartment');
+import assert from 'assert';
+import mostProfitableDepartment from '../mostProfitableDepartment.js';
 
 describe('testing my mostProfitableDepartment function' , function(){
     it('it should return the most profitable department' , function(){

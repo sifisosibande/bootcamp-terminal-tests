@@ -1,4 +1,5 @@
-var countAllFromTown = require('../countAllFromTown');
+import assert from 'assert';
+import countAllFromTown from '../countAllFromTown.js';
 
 describe('testing my countAllFromTown function' , function(){
     it('It should return the number of registration numbers in the string that is for that town.' , function(){

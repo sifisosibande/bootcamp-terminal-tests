@@ -1,4 +1,4 @@
-module.exports = function greet(name){
+export default function greet(name){
     
     return "Hello, " + name;
 };

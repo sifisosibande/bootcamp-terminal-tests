@@ -1,4 +1,5 @@
-var isFromBellville = require('../isFromBellville');
+import assert from 'assert';
+import isFromBellville from '../isFromBellville.js';
 
 describe('testing my isFromBellville function ' , function(){
     it('it should returns true if a registration number is for Bellville' , function(){

@@ -1,4 +1,5 @@
-var countAllFromPaarl = require('../countAllPaarl');
+import assert from 'assert';
+import countAllPaarl from '../countAllPaarl.js';
 
 describe('testing my countAllFromPaarl function' , function(){
     it('it should takes a parameter string with registration numbers separated with commas and returns the number of registration numbers in the string for Paarl' , function(){

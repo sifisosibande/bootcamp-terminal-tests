@@ -1,3 +1,3 @@
-module.exports = function isFromBellville(registration){
+export default function isFromBellville(registration){
     return  registration.startsWith("CY")
    }

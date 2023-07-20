@@ -1,4 +1,4 @@
-module.exports = function countAllPaarl(regNo){
+export default function countAllPaarl(regNo){
     const arrRegNo=regNo.split(",");
     const regNoForPaarl=[];
   for (let i=0; i < arrRegNo.length;i++){

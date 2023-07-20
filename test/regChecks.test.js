@@ -1,4 +1,5 @@
-var regCheck = require('../regCheck');
+import assert from 'assert';
+import regCheck from '../regCheck.js';
 
 describe('testing my regCheck function' , function(){
     it('it should return true for registration numbers end matches the location' , function(){

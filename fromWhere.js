@@ -1,4 +1,4 @@
-module.exports = function fromWhere(regNo){
+export default function fromWhere(regNo){
     if (regNo.startsWith("CY")){
       return "Bellville"
     }

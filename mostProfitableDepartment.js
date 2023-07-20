@@ -1,4 +1,4 @@
-module.exports = function mostProfitableDepartment(salesData){
+export default function mostProfitableDepartment(salesData){
     let department;
     let Departments=[];
     let DepartmentSale=0;
